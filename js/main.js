@@ -50,7 +50,7 @@ $('.menu__link').click(function (event) {
     $(this).parent().toggleClass('active');
   });
 
-fetch('https://www.wona.co.il/test_8192735.php', { mode: 'no-cors'})
+fetch('https://www.wona.co.il/test_8192735.php')
     
     .then(function (resp) { return resp.json() })
     .then(function (data) {
