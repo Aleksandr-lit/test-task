@@ -50,14 +50,14 @@ $('.menu__link').click(function (event) {
     $(this).parent().toggleClass('active');
   });
 
-fetch('https://www.wona.co.il/test_8192735.php')
+// fetch('https://www.wona.co.il/test_8192735.php')
     
-    .then(function (resp) { return resp.json() })
-    .then(function (data) {
-        console.log(data);
+//     .then(function (resp) { return resp.json() })
+//     .then(function (data) {
+//         console.log(data);
 
-    })
-    .catch(function () {
+//     })
+//     .catch(function () {
 
-    });
+//     });
 
